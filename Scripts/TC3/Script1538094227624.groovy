@@ -33,4 +33,3 @@ CustomKeywords.'my.MemoryManager.retrieve'(memory)
 
 memory.put('C', "TC3 said goodbye")
 
-GlobalVariable.MEMORY = memory

@@ -5,4 +5,11 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>13f91dc3-abcf-4e06-afa5-512559296354</testCaseGuid>
+   <variable>
+      <defaultValue>[('B') : 'b is the 2nd letter', ('C') : 'c is the 3rd letter', ('A') : 'a is the 1st letter']</defaultValue>
+      <description></description>
+      <id>1854422a-9d9b-4928-9c6b-469dfd903427</id>
+      <masked>false</masked>
+      <name>passed_memory</name>
+   </variable>
 </TestCaseEntity>
