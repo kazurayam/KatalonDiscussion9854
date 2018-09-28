@@ -74,8 +74,8 @@ key=D,value=d
 key=E,value=e
 ```
 
-Please not that the `GlobalVariable.memory` is shared by test cases and update by them.
+Please note that the `GlobalVariable.memory` is shared by test cases and updated mutually by them.
 
 # Conclusion
 
-Each test cases declares single variable `Map memory` which contains multiple key=value pairs. There is less need to type variable names repeatedly for every test cases.
+Each test cases declares single variable `Map memory` which contains multiple key=value pairs. This reduces need to type variable names repeatedly for every test cases.
