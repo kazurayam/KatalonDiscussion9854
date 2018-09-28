@@ -5,12 +5,12 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 
 class MemoryManager {
-	
+
 	/**
 	 * Refresh browser
 	 */
 	@Keyword
-	def remember(Map memory) {
+	def retrieve(Map memory) {
 		StringBuilder sb = new StringBuilder()
 		Set keyset = new TreeSet(memory.keySet())
 		for (Iterator keyIter = keyset.iterator(); keyIter.hasNext();) {

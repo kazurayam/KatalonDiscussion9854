@@ -29,7 +29,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
 Map memory = (Map)GlobalVariable.MEMORY
-CustomKeywords.'my.MemoryManager.remember'(memory)
+CustomKeywords.'my.MemoryManager.retrieve'(memory)
 
 memory.put('C', "TC3 said goodbye")
 
